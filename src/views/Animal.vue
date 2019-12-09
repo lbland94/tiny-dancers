@@ -38,7 +38,7 @@ export default Vue.extend({
     },
     img(): string {
       if (this.animal) {
-        const imgFolder = `/img/animals/${this.animal.name}/`;
+        const imgFolder = `img/animals/${this.animal.name}/`;
         const imgFile =
           this.animal.images[
             Math.floor(Math.random() * this.animal.images.length)
