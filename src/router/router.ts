@@ -23,6 +23,9 @@ const router = new VueRouter({
   mode: "history",
   base: process.env.BASE_URL,
   routes,
+  scrollBehavior: (to, from, position) => {
+    return position || position === null ? {x: 0, y: 0} : undefined;
+  },
 });
 
 export default router;

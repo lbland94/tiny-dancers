@@ -6,7 +6,7 @@
     dark
     hover
     tile
-    :to="'/' + animal.name"
+    @click="$emit('click')"
   >
     <v-row
       align="center"
