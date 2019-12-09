@@ -24,7 +24,7 @@ const router = new VueRouter({
   base: process.env.BASE_URL || "",
   routes,
   scrollBehavior: (to, from, position) => {
-    return position || position === null ? {x: 0, y: 0} : undefined;
+    return position || position === null ? { x: 0, y: 0 } : undefined;
   },
 });
 

@@ -1,18 +1,17 @@
 <template>
   <div class="v-animal">
-    <v-btn class="back-btn"
-           icon
-           to="/">
+    <v-btn class="back-btn" icon to="/">
       <v-icon>mdi-arrow-left</v-icon>
     </v-btn>
-    <v-row class="v-animal-container"
-           align="center"
-           justify="center"
-           no-gutters
-           :style="backgroundStyle">
+    <v-row
+      class="v-animal-container"
+      align="center"
+      justify="center"
+      no-gutters
+      :style="backgroundStyle"
+    >
       <div class="dancing-animal-container">
-        <v-img :src="img"
-               class="dancing-animal" />
+        <v-img :src="img" class="dancing-animal" />
       </div>
     </v-row>
   </div>

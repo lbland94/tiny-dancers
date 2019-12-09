@@ -18,6 +18,6 @@ export default new Vuex.Store({
   actions: {},
   modules: {},
   getters: {
-    scroll: (state) => state.scroll,
+    scroll: state => state.scroll,
   },
 });

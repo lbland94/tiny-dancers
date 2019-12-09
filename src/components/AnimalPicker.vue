@@ -93,9 +93,9 @@ export default Vue.extend({
           await this.$nextTick();
 
           this.selectedAnimalStyle =
-          `width: ${boundingClientRect.width}px; height: ${boundingClientRect.height}px; ` +
-          `top: ${boundingClientRect.top}px; left: ${boundingClientRect.left}px; ` +
-          `transform: translate(0, 0) rotateZ(0deg); transition: 0.5s all;`;
+            `width: ${boundingClientRect.width}px; height: ${boundingClientRect.height}px; ` +
+            `top: ${boundingClientRect.top}px; left: ${boundingClientRect.left}px; ` +
+            `transform: translate(0, 0) rotateZ(0deg); transition: 0.5s all;`;
           setTimeout(() => {
             this.selectedAnimalClass = "";
           }, 350);
@@ -107,7 +107,7 @@ export default Vue.extend({
     })();
   },
   watch: {
-    nextAnimal(animal: IAnimal|undefined) {
+    nextAnimal(animal: IAnimal | undefined) {
       if (animal) {
         this.selectAnimal(animal);
       }
