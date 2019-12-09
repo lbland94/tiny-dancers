@@ -30,6 +30,7 @@ export default Vue.extend({
   },
   data: () => ({
     animals: ANIMALS,
+    baseUrl: process.env.BASE_URL || "",
     backgroundStyle: "background-color: #E53935;",
   }),
   computed: {
@@ -38,7 +39,7 @@ export default Vue.extend({
     },
     img(): string {
       if (this.animal) {
-        const imgFolder = `img/animals/${this.animal.name}/`;
+        const imgFolder = `${this.baseUrl}/img/animals/${this.animal.name}/`;
         const imgFile =
           this.animal.images[
             Math.floor(Math.random() * this.animal.images.length)

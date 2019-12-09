@@ -4,10 +4,10 @@
   "private": true,
   "scripts": {
     "clean": "rm -rf dist/*",
-    "serve": "vue-cli-service serve",
+    "serve": "BASE_URL=\"/tiny-dancers\" vue-cli-service serve",
     "build": "vue-cli-service build --no-clean",
     "lint": "vue-cli-service lint",
-    "release": "npm run clean && npm run build",
+    "release": "npm run clean && npm run build -- --mode ghpages",
     "deploy": "cd dist && git add --all && git commit -m \"Release at $(date)\" && git push"
   },
   "dependencies": {
