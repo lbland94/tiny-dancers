@@ -28,6 +28,20 @@ export const ANIMALS: IAnimal[] = [
         path: "cat.gif",
       }, {
         path: "cat2.gif",
+      },{
+        path: "cat3.gif",
+      },
+    ],
+  },
+  {
+    name: "chicken",
+    images: [
+      {
+        path: "chicken.gif",
+      }, {
+        path: "chicken2.gif",
+      },{
+        path: "chicken3.gif",
       },
     ],
   },
@@ -47,6 +61,40 @@ export const ANIMALS: IAnimal[] = [
     images: [
       {
         path: "cow.gif",
+      },
+    ],
+  },
+  {
+    name: "crab",
+    images: [
+      {
+        path: "crab.gif",
+      }, {
+        path: "crab2.gif",
+      },{
+        path: "crab3.gif",
+      },
+    ],
+  },
+  {
+    name: "crocodile",
+    images: [
+      {
+        path: "crocodile.gif",
+      }, {
+        path: "crocodile2.gif",
+      },{
+        path: "crocodile3.gif",
+      },
+    ],
+  },
+  {
+    name: "dino",
+    images: [
+      {
+        path: "dino.gif",
+      }, {
+        path: "dino2.gif",
       },
     ],
   },
@@ -94,9 +142,6 @@ export const ANIMALS: IAnimal[] = [
     name: "fox",
     images: [
       {
-        path: "fox.gif",
-        style: "transform: scale(.8);",
-      }, {
         path: "fox3.gif",
         style: "transform: scale(1.3);",
       }, {
@@ -127,6 +172,16 @@ export const ANIMALS: IAnimal[] = [
       {
         path: "giraffe.gif",
         style: "transform: scale(1.5);",
+      },
+    ],
+  },
+  {
+    name: "gorilla",
+    images: [
+      {
+        path: "gorilla3.gif",
+      }, {
+        path: "gorilla4.gif",
       },
     ],
   },
@@ -174,6 +229,19 @@ export const ANIMALS: IAnimal[] = [
       {
         path: "mouse.gif",
         style: "transform: scale(1.1);",
+      },
+    ],
+  },
+  {
+    name: "otter",
+    images: [
+      {
+        path: "otter.gif",
+      }, {
+        path: "otter2.gif",
+      }, {
+        path: "otter3.gif",
+        style: "transform: scale(1.5);",
       },
     ],
   },
@@ -236,6 +304,14 @@ export const ANIMALS: IAnimal[] = [
       },
     ],
   },
+  // {
+  //   name: "rhino",
+  //   images: [
+  //     {
+  //       path: "rhino.gif",
+  //     },
+  //   ],
+  // },
   {
     name: "shark",
     images: [
@@ -285,6 +361,9 @@ export const ANIMALS: IAnimal[] = [
     images: [
       {
         path: "tiger.gif",
+      }, {
+        path: "tiger3.gif",
+        style: "transform: scale(2.5);",
       },
     ],
   },
@@ -308,54 +387,6 @@ export const ANIMALS: IAnimal[] = [
       }, {
         path: "whale2.gif",
         style: "transform: scale(2);",
-      },
-    ],
-  },
-  {
-    name: "giraffe",
-    images: [
-      {
-        path: "giraffe.gif",
-      },
-    ],
-  },
-  {
-    name: "giraffe",
-    images: [
-      {
-        path: "giraffe.gif",
-      },
-    ],
-  },
-  {
-    name: "giraffe",
-    images: [
-      {
-        path: "giraffe.gif",
-      },
-    ],
-  },
-  {
-    name: "giraffe",
-    images: [
-      {
-        path: "giraffe.gif",
-      },
-    ],
-  },
-  {
-    name: "giraffe",
-    images: [
-      {
-        path: "giraffe.gif",
-      },
-    ],
-  },
-  {
-    name: "giraffe",
-    images: [
-      {
-        path: "giraffe.gif",
       },
     ],
   },
